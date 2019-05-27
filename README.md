@@ -1,6 +1,6 @@
 # helm-repo-in-github
 
-This is a sample for how to setup a helm repo in github without gh-pages. This is usable even for private repositories.
+This is a george-sre for how to setup a helm repo in github without gh-pages. This is usable even for private repositories.
 
 
 # Adding a new version or chart to this repo
@@ -17,17 +17,17 @@ $ git commit -m 'New chart version'
 You might know github has a raw view. So simply use the following:
 
 ```bash
-$ helm repo add sample 'https://raw.githubusercontent.com/kmzfs/helm-repo-in-github/master/'
+$ helm repo add george-sre 'https://raw.githubusercontent.com/kmzfs/helm-repo-in-github/master/'
 $ helm repo update
-$ helm search aerospike
+$ helm search vault-agent
 NAME            	VERSION	DESCRIPTION
-sample/aerospike	0.1.2  	A Helm chart for Aerospike in Kubernetes
+george-sre/vault-agent	0.1.2  	A Helm chart for vault-agent in Kubernetes
 ```
 
 If your repo is private you can create a "Personal access tokens" and use it like:
 
 ```bash
-$ helm repo add sample 'https://MY_PRIVATE_TOKEN@raw.githubusercontent.com/kmzfs/helm-repo-in-github/master/'
+$ helm repo add george-sre 'https://MY_PRIVATE_TOKEN@raw.githubusercontent.com/kmzfs/helm-repo-in-github/master/'
 ```
 
 Note: Becareful who is creating the token and what is its level of access.
