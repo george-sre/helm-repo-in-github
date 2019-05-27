@@ -1,19 +1,13 @@
 apiVersion: v1
 entries:
-  aerospike:
-  - apiVersion: v3.14.1.2
-    created: 2017-09-29T16:47:22.6123528Z
-    description: A Helm chart for Aerospike in Kubernetes
-    digest: 4aa501a77dcae10d01f25c370e5c577c8f697cbe9c99fdf0c2efaf480b5276bf
-    home: http://aerospike.com
-    icon: https://s3-us-west-1.amazonaws.com/aerospike-fd/wp-content/uploads/2016/06/Aerospike_square_logo.png
-    keywords:
-    - aerospike
-    - big-data
-    name: aerospike
-    sources:
-    - https://github.com/aerospike/aerospike-server
+  vault-agent:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-05-27T15:33:41.922487+08:00"
+    description: A Helm chart for Vault agent
+    digest: e686cc9a928da1b7575153614700be5584448ccfd61d624a31e3e77dfbb82608
+    name: vault-agent
     urls:
-    - aerospike-0.1.2.tgz
-    version: 0.1.2
-generated: 2017-09-29T16:47:22.6044312Z
+    - vault-agent-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-05-27T15:33:41.921902+08:00"
