@@ -17,7 +17,7 @@ $ git commit -m 'New chart version'
 You might know github has a raw view. So simply use the following:
 
 ```bash
-$ helm repo add george-sre 'https://raw.githubusercontent.com/kmzfs/helm-repo-in-github/master/'
+$ helm repo add george-sre 'https://raw.githubusercontent.com/george-sre/helm-repo-in-github/master/'
 $ helm repo update
 $ helm search vault-agent
 NAME            	VERSION	DESCRIPTION
@@ -27,7 +27,7 @@ george-sre/vault-agent	0.1.2  	A Helm chart for vault-agent in Kubernetes
 If your repo is private you can create a "Personal access tokens" and use it like:
 
 ```bash
-$ helm repo add george-sre 'https://MY_PRIVATE_TOKEN@raw.githubusercontent.com/kmzfs/helm-repo-in-github/master/'
+$ helm repo add george-sre 'https://MY_PRIVATE_TOKEN@raw.githubusercontent.com/george-sre/helm-repo-in-github/master/'
 ```
 
 Note: Becareful who is creating the token and what is its level of access.
