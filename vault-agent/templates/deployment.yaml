@@ -33,3 +33,4 @@ spec:
           value: "{{ .Values.vault_addr }}"
         - name: SECRET_REFRESH_TIME
           value: "{{ .Values.secret_refresh_time }}"
+
